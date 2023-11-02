@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Les logiciels libres</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light bg-light">
+            <div class="container">
+                <!-- Logo de la barre de naviguation -->
+                <a class="navbar-brand" href="https://fr.wikipedia.org/wiki/Logiciel_libre"><img src="images/GNU-100.png"
+                 width="100" height="100" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="keeppassxc.html">KeepPassXC</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="joplin.html">Joplin</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="pdfsambasic.html">PDFsam Basic</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link activer" aria-current="page" >Contactez-nous</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <body>
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center align-self-center">
+                        <div class="col-8 border-bottom">
+                            <h2 class="text-center violet py-3">Contact</h2>
+                        </div>
+                    </div> 
+                        <!--formulaire-->
+                        <br />
+                        <form action="">
+                            <div class="row justify-content-center">
+                                <div class="col-8 mb-3">
+                                    <label for="votreNom" class="form-label">Nom</label>
+                                    <input type="text" class="form-control" id="votreNom" placeholder="Votre nom (obligatoire)"
+                                        required>
+                                </div>
+                                <div class="col-8 mb-3">
+                                    <label for="votrePrenom" class="form-label">Prénom</label>
+                                    <input type="text" class="form-control" id="votrePrenom"
+                                        placeholder="Votre prénom (obligatoire)" required>
+                                </div>
+                                <div class="col-8 mb-3">
+                                    <label for="votreEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="votreEmail"
+                                        placeholder="Votre adresse email (obligatoire)" required>
+                                </div>
+                                <div class="col-8 mb-3">
+                                    <label for="message" class="form-label">Votre message</label>
+                                    <textarea class="form-control" id="message" rows="4"
+                                        placeholder="Votre message (facultatif)"></textarea>
+                                </div>
+                                <div class="col-8 mb-3">
+                                    <button class="btn btn-success" type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                     </div>
+                <footer >
+                    <div class = "container border-top py-3 my-3">
+                        <div class="row justify-content-end">    
+                            <div class="col-sm-12 col-md-4 col-lg-2">
+                                <figure class="figure"> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"> 
+                                    <img src="images/Cc_by-sa.png" alt="Cc-by-sa.png" class="img-responsive my-1"> 
+                                    <figcaption class="figure-caption">licence CC-BY-SA 4.0</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        </body>
+        

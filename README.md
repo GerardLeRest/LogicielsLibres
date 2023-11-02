@@ -1,3 +1,2 @@
 # LogicielsLibres
-Site internet sur les logiciels libres:
-index, KeepassXC, Joplin, PDFsam Basic, Contact
+Site sur les  "Logiciles Libres" avec les pages index, KeepassXC, Joplin, Pdfsam Basic, Contact.
