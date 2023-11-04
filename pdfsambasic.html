@@ -5,21 +5,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Les logiciels libres</title>
+        <!--fichier css Bootstrap-->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+        <!--fichier css personnel-->
         <link href="style.css" rel="stylesheet"/>
     </head>
     
     <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light bg-light">
-            <div class="container">
+        <header class="container">
+            <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light bg-light">
                 <!-- Logo de la barre de naviguation -->
                 <a class="navbar-brand" href="https://fr.wikipedia.org/wiki/Logiciel_libre"><img src="images/GNU-100.png"
-                 width="100" height="100" alt="Image de GNU">
+                width="100" height="100" alt="Image de GNU">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!--menu-->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item px-3">
@@ -39,104 +42,111 @@
                         </li>
                     </ul>
                 </div>
+            </nav>
+            <div class="row justify-content-center align-self-center">
+                <div class="col-8 border-bottom">
+                    <!--titre de la page-->
+                    <h2 class="text-center violet py-3">PDFsam Basic</h2>
+                </div>
             </div>
-        </nav>
-        <body>
-            <main>
-                <div class="container">
-                    <div class="row justify-content-center align-self-center">
-                        <div class="col-8 border-bottom">
-                            <h2 class="text-center violet py-3">PDFsam Basic</h2>
-                        </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <p>
-                                PDFsam Basic est un utilitaire bureautique pour découper et/ou mêler, diviser, fusionner, extraire(extrait)
-                            des pages, faire tourner et mélanger des documents PDF.
-                            </p>
-                            <p>
-                                Il est multiplateforme, libre et gratuit en mode Basic.
-                            </p>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="row">
+                    <!--Description du logiciel-->
+                    <div class="col-12">
+                        <p>
+                            PDFsam Basic est un utilitaire bureautique pour découper et/ou mêler, diviser, fusionner, extraire(extrait)
+                        des pages, faire tourner et mélanger des documents PDF.
+                        </p>
+                        <p>
+                            Il est multiplateforme, libre et gratuit en mode Basic.
+                        </p>
+                </div>
+                <div class ="row align-items-center justify-content-around">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <br />
+                        <!--Tableau d'information-->
+                        <table class="table table-bordered">
+                            <thead class="table-secondary">
+                                <tr>
+                                <th scope="col">Disponible sur</th>
+                                <th scope="col">Windows, Mac OS X, GNU/Linux</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">Alternative à:</th>
+                                <td>PDF-XChange, ABBY PDF, Foxit Reader, Nitro Reader, Adobe Acrobat Pro</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Version:</th>
+                                <td>Stable</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Langue:</th>
+                                <td>multilingue</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Créateur(s):</th>
+                                <td>Andrea Vacondio</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Société ou organisation:</th>
+                                <td>Andrea Vacondio</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Licence(s):</th>
+                                <td><a href="https://framalibre.org/licences/licence-publique-g%C3%A9n%C3%A9rale-affero-agpl">Licence publique générale Affero</a></td>
+                                </tr>
+                            </tbody>
+                        </table>  
+                        <!--bouton "site keepassXC" -->
+                        <a class="btn bouton-perso" href="https://pdfsam.org/fr/" role="button">lien officiel</a>
                     </div>
-                    
-                    <div class ="row justify-content-around">
-                        <div class="col-4">
-                            <br />
-                            <table class="table table-bordered">
-                                <thead class="table-secondary">
-                                  <tr>
-                                    <th scope="col">Disponible sur</th>
-                                    <th scope="col">Windows, Mac OS X, GNU/Linux</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">Alternative à:</th>
-                                    <td>PDF-XChange, ABBY PDF, Foxit Reader, Nitro Reader, Adobe Acrobat Pro</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">Version:</th>
-                                    <td>Stable</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">Langue:</th>
-                                    <td>multilingue</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">Créateur(s):</th>
-                                    <td>Andrea Vacondio</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">Société ou organisation:</th>
-                                    <td>Andrea Vacondio</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">Licence(s):</th>
-                                    <td><a href="https://framalibre.org/licences/licence-publique-g%C3%A9n%C3%A9rale-affero-agpl">Licence publique générale Affero</a></td>
-                                  </tr>
-                                </tbody>
-                            </table>  
-                            <a class="btn bouton-perso" href="https://pdfsam.org/fr/" role="button">lien officiel</a>
-                        </div>
-                        <div class="col-5 my-3">
-                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="images/pdfsambasic/pdfsambasic1.png" class="img-fluid d-block h-100" alt="image1 de Pdfsam Basic">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="images/pdfsambasic/pdfsambasic2.png" class="img-fluid d-block h-100" alt="image2 de Pdfsam Basic">
-                                  </div>
+                    <div class="col-sm-12 col-md-12 col-lg-5 my-3">
+                        <!--Carroussel-->
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img src="images/pdfsambasic/pdfsambasic1.png" class="img-fluid d-block w-100" alt="image1 de Pdfsam Basic">
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>   
+                                <div class="carousel-item">
+                                <img src="images/pdfsambasic/pdfsambasic2.png" class="img-fluid d-block w-100" alt="image2 de Pdfsam Basic">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            </div>   
+                    </div>
+                </div>
+            </div> 
+        <main>
+            <!--bas de page-->
+            <footer >
+                <div class = "container border-top py-3 my-3">
+                    <div class="row justify-content-between">    
+                        <div class="col-sm-12 col-md-12 col-lg-10">
+                                sources: 
+                                <a href="https://framalibre.org/content/pdf-sam-basic">FramaLibre - PDFsam Basic</a>
+                        </div>
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                            <figure class="figure"> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"> 
+                                <img src="images/Cc_by-sa.png" alt="Cc-by-sa.png" class="img-responsive my-1"> 
+                                <figcaption class="figure-caption">licence CC-BY-SA 4.0</figcaption>
+                            </figure>
                         </div>
                     </div>
-                </div> 
-            <main>
-                <footer >
-                    <div class = "container border-top py-3 my-3">
-                        <div class="row justify-content-between">    
-                            <div class="col-sm-12 col-md-12 col-lg-10">
-                                    sources: 
-                                    <a href="https://framalibre.org/content/pdf-sam-basic">FramaLibre - PDFsam Basic</a>
-                            </div>
-                            <div class="col-sm-2 col-md-2 col-lg-2">
-                                <figure class="figure"> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"> 
-                                    <img src="images/Cc_by-sa.png" alt="Cc-by-sa.png" class="img-responsive my-1"> 
-                                    <figcaption class="figure-caption">licence CC-BY-SA 4.0</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        </body>
+                </div>
+            </footer>
+        <!--fichier Boostrap JS"-->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
         

@@ -1,12 +1,8 @@
-.violet{
-   color: 
-}
+    .saumon{
+    color: #c36d6d;
+    }
 
-.gris-clair{
-    background-color :#A8A8A9;
-}
-
-.nav-link{
+    .nav-link{
     color: #609658;; /*texte barre de menu */
 }
 
@@ -23,10 +19,11 @@ h2{
 }
 
 .bouton-perso{
-    background-color: #d87d7d; /* couleur du fond de bouton */
+    background-color: #c36d6d; /* couleur du fond de bouton */
     color:black; /* couleur du texte du bouton */
 }
 
-
-
-
+.carousel-control-next, /* contrôles des boutons des carrousels */
+.carousel-control-prev{
+    filter: invert(1);
+}
