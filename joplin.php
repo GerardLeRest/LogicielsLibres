@@ -1,55 +1,13 @@
 <!doctype html>
 <html lang="fr">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Les logiciels libres</title>
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-        <link href="style.css" rel="stylesheet"/>
-    </head>
+    <?php require_once('head.php') ?>
     
     <body>
 
-        <header class="container">
-            <!-- menu -->
-            <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light bg-light">
-                <!-- Logo de la barre de naviguation -->
-                <a class="navbar-brand" href="https://fr.wikipedia.org/wiki/Logiciel_libre"><img src="images/GNU-100.png"
-                width="100" height="100" alt="Image de GNU">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="keeppassxc.html">KeepPassXC</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" aria-current="#">Joplin</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="pdfsambasic.html" href="#">PDFsam Basic</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="contact.html">Contactez-nous</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!--Titre de la page-->
-            <div class="row justify-content-center align-self-center">
-                <div class="col-8 border-bottom">
-                    <h2 class="text-center violet py-3">Josplin</h2>
-                </div>
-            </div>
-        </header>
-
+        <?php require_once('header.php');
+             
+        ?>
         <main>
             <div class="container">
                 <div class="row">
@@ -154,5 +112,4 @@
         </footer>
         <!--fichier Boostrap JS"-->
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-        
+    </body>       
