@@ -1,7 +1,4 @@
-<?php
-    $titrePage = "Un logiciel libre est forcément open source. L'inverse n'est pas forcément vrai!";
-    require('constantes.php');
-?>
+<?php require('constantes.php'); ?>
     
 <header class="container">
     <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light bg-light">
@@ -37,7 +34,7 @@
         <div class="row justify-content-center align-self-center">
             <div class="col-8 border-bottom">
                 <!--Titre principal du site-->
-                <h2 class="text-center violet py-3"><?php echo "$titrePage";?></h2>
-            </div>
+                <h2 class="text-center violet py-3"><?php echo $titrePrincipauxFront[$indice];?></h2>
+            </div>                                               
         </div>
-</header>
+</header>                                           

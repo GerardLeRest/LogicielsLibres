@@ -121,27 +121,7 @@
         </main>
         
              <!-- bas de page-->
-            <footer>
-                <div class = "container">
-                    <div class="row border-top my-3 py-3 justify-content-between">    
-                        <div class="col-sm-12 col_md-12 col-lg-10">
-                                sources: 
-                                <a href="https://fr.wikipedia.org/wiki/Richard_Stallman">https://fr.wikipedia.org/wiki/Richard_Stallman -</a>
-                                <a href="https://fr.wikipedia.org/wiki/Logiciel_libre">https://fr.wikipedia.org/wiki/Logiciel_libre -</a>
-                                <a href="https://fr.wikipedia.org/wiki/VLC_media_player">https://fr.wikipedia.org/wiki/VLC_media_player -</a>
-                                <a href="https://fr.wikipedia.org/wiki/Mozilla_Firefox">https://fr.wikipedia.org/wiki/Mozilla_Firefox -</a> 
-                                <a href="https://framalibre.org/content/gimp">https://framalibre.org/content/gimp</a>
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-2">
-                                <figure class="figure"> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"> 
-                                    <img src="images/Cc_by-sa.png" alt="Cc-by-sa.png" class="img-responsive my-1"> 
-                                    <figcaption class="figure-caption">licence CC-BY-SA 4.0</figcaption>
-                                </figure>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </footer>
+             <?php require_once('footer.php');?>
             <!--fichier Boostrap JS"-->
             <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
         </body>

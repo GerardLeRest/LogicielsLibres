@@ -39,21 +39,8 @@
                 </form>
             </div>
         </main>
-        
-        <!--bas de page-->
-        <footer >
-            <div class = "container border-top py-3 my-3">
-                <div class="row justify-content-end">    
-                    <div class="col-sm-12 col-md-4 col-lg-2">
-                        <figure class="figure"> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"> 
-                            <img src="images/Cc_by-sa.png" alt="Cc-by-sa.png" class="img-responsive my-1"> 
-                            <figcaption class="figure-caption">licence CC-BY-SA 4.0</figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <!--fichier Boostrap JS"-->
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>
+</html>
             
