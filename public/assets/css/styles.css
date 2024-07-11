@@ -1,0 +1,29 @@
+.saumon{
+    color: #c36d6d;
+    }
+
+    .nav-link{
+    color: #609658;; /*texte barre de menu */
+}
+
+/* .navbar {
+    margin-top: -50px; /* éliminer arge basse de la nav-bar 
+} */
+
+ h4{
+    color: #609658;;
+}
+
+h2{
+    color: #7a99ac;
+}
+
+.bouton-perso{
+    background-color: #7a99ac; /* couleur du fond de bouton */
+    color:black; /* couleur du texte du bouton */
+}
+
+.carousel-control-next, /* contrôles des boutons des carrousels */
+.carousel-control-prev{
+    filter: invert(1);
+}
