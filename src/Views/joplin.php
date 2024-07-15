@@ -3,13 +3,10 @@
 
     <?php require_once('head.php') ?>
     
-    <body>
+    <body class="d-flex flex-column  min-vh-100">
 
-        <?php require_once('header.php');
-             
-        ?>
-        <main>
-            <div class="container">
+        <?php require_once('header.php');?>
+            <main class="container flex-grow-1">
                 <div class="row">
                     <!--description du logiciel-->
                     <div class="col-12">
@@ -73,10 +70,10 @@
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="assets/images/joplin/joplin1.jpg" class="img-fluid d-block w-100" alt="image1 de Joplin">
+                                <img src="public/assets/images/joplin/joplin1.jpg" class="img-fluid d-block w-100" alt="image1 de Joplin">
                                 </div>
                                 <div class="carousel-item">
-                                <img src="assets/images/joplin/joplin2.png" class="img-fluid d-block w-100" alt="image2 de Joplin">
+                                <img src="public/assets/images/joplin/joplin2.png" class="img-fluid d-block w-100" alt="image2 de Joplin">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -90,12 +87,10 @@
                             </div>   
                     </div>
                 </div>
-            </div> 
-        <main>
-
+            </main> 
         <!--bas de page-->
         <?php require_once('footer.php');?>
         <!--fichier Boostrap JS"-->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="public/assets/js/bootstrap.bundle.min.js"></script>
     </body>   
 </html>    

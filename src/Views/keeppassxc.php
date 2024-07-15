@@ -2,9 +2,11 @@
 
   <html lang="fr"><?php require_once('head.php') ?>
 
-  <body>
+  <body class="d-flex flex-column  min-vh-100">
+
     <?php require_once('header.php'); ?>
-    <main class="container">
+    
+    <main class="container flex-grow-1">
       <div class="row">
         <article class="col-12">
           <br />
@@ -77,11 +79,11 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <!--les mx-auto des images centre le carousel-->
-                <img src="assets/images/keeppassxc/screen_001.resized.png" class="img-fluid d-block mx-auto w-100"
+                <img src="public/assets/images/keeppassxc/screen_001.resized.png" class="img-fluid d-block mx-auto w-100"
                   alt="image1 de keeppassxc">
               </div>
               <div class="carousel-item">
-                <img src="assets/images/keeppassxc/screen_002.resized.png" class="img-fluid d-block mx-auto w-100"
+                <img src="public/assets/images/keeppassxc/screen_002.resized.png" class="img-fluid d-block mx-auto w-100"
                   alt="image2 de keeppassxc">
               </div>
             </div>
@@ -103,6 +105,6 @@
         <!--pied de page-->
         <?php require_once('footer.php');?>
         <!--fichier Boostrap JS"-->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="public/assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

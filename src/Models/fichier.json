@@ -1,0 +1,27 @@
+[
+    {
+        "pseudonyme": "VidConfExpert",
+        "email": "vidconfexpert@example.com",
+        "texte": "Jitsi Meet:\r\nLogiciel de vid\u00e9oconf\u00e9rence libre. Facile \u00e0 utiliser et sans limite de temps."
+    },
+    {
+        "pseudonyme": "AnimMaster",
+        "email": "animmaster@example.com",
+        "texte": "Programme d'animation 2D vectoriel. Permet de cr\u00e9er des animations de haute qualit\u00e9 sans frais."
+    },
+    {
+        "pseudonyme": "OfficeGuru",
+        "email": "officeguru@example.com",
+        "texte": "OnlyOffice:\r\nSuite bureautique en ligne. Compatible avec les formats de Microsoft Office et permet la collaboration en temps r\u00e9el."
+    },
+    {
+        "pseudonyme": "PubDesignPro",
+        "email": "pubdesignpro@example.com",
+        "texte": "Scribus:\r\nLogiciel de publication assist\u00e9e par ordinateur. Id\u00e9al pour cr\u00e9er des magazines, brochures et autres documents imprim\u00e9s."
+    },
+    {
+        "pseudonyme": "gege",
+        "email": "gerard.lerest@orange.fr",
+        "texte": "Grsync est une interface graphique simple utilisant GTK pour la commande rsync. C'est donc un logiciel qui permet d'effectuer facilement des synchronisations \/ sauvegardes (backup) de r\u00e9pertoires sur des p\u00e9riph\u00e9riques externes ou distants. Il est publi\u00e9 sous licence libre GNU GPL. "
+    }
+]

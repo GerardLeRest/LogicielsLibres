@@ -13,7 +13,7 @@ return [
         $app = AppFactory::createFromContainer($container);
 	
 	// Configuration du chemin de la base
-        $app->setBasePath('/logicielslibres'); //https://www.slimframework.com/docs/v4/start/web-servers.html
+        //$app->setBasePath('/logicielslibres'); //https://www.slimframework.com/docs/v4/start/web-servers.html
 	
         // Register routes
         (require __DIR__ . '/routes.php')($app);

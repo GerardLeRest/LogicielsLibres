@@ -1,7 +1,7 @@
-<footer>    
+<footer class="mt-auto">    
     <div class = "container">
         <div class="row border-top my-3 py-3 justify-content-between">    
-            <div class="col-sm-12 col_md-12 col-lg-10">
+            <div class="col-sm-12 col-md-12 col-lg-10">
                     <?php 
                         require_once('constantes.php');
                         echo "source: " . $footerURL[$indice]; 

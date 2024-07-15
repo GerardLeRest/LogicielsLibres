@@ -3,11 +3,11 @@
 
     <?php require_once('head.php'); ?>
    
-    <body>
+    <body class="d-flex flex-column  min-vh-100">
 
         <?php require_once('header.php'); ?>
 
-        <main class="container">
+        <main class="container flex-grow-1">
             <div class ="row  py-2">
                 <div class="col-12">
                     <br />
@@ -17,7 +17,7 @@
             <div class="row">   
                 <div class ="col-3 text-center ">
                     <figure class="figure">
-                        <img src="assets/images/accueil/Richard_Stallman2.jpg" class="figure-img img-fluid rounded" alt="Photo de Richard Stallman">
+                        <img src="publi/assets/images/accueil/Richard_Stallman2.jpg" class="figure-img img-fluid rounded" alt="Photo de Richard Stallman">
                         <figcaption class="figure-caption">Richard Stallman</figcaption>
                     </figure>
                 </div> 
@@ -95,7 +95,7 @@
             <div class="row justify-content-around ">
                 <div class="card col-sm-12 col-md-6 col-lg-3 ">
                     <div class="card-body text-center" style="width: 5 rem;">
-                        <img src="assets/images/accueil/VLC_logo-100.png" class="card-img-top w-25 " alt="Image de l'icone VLC">
+                        <img src="public/assets/images/accueil/VLC_logo-100.png" class="card-img-top w-25 " alt="Image de l'icone VLC">
                         <h5 class="card-title">VLC</h5>
                         <p class="card-text"><p>VLC media player (VLC) est un lecteur multimédia, libre et gratuit issu du projet VideoLAN.</p>
                         <a href="https://www.videolan.org/index.fr.html" class="btn bouton-perso">En savoir +</a>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="card col-sm-12 col-md-6 col-lg-3">
                     <div class="card-body text-center" style="width: 5 rem;">
-                        <img src="assets/images/accueil/Firefox_logo-100.png" class="card-img-top w-25" alt="Image de l'icone Mozilla Firefox">
+                        <img src="public/assets/images/accueil/Firefox_logo-100.png" class="card-img-top w-25" alt="Image de l'icone Mozilla Firefox">
                         <h5 class="card-title">Mozilla FIREFOX</h5>
                         <p class="card-text"><p>Mozilla Firefox est un navigateur web libre et gratuit disponible pour PC et mobiles. </p>
                         <a href="https://www.mozilla.org/fr/firefox/new/" class="btn bouton-perso">En savoir +</a>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="card col-sm-12 col-md-6 col-lg-3">
                     <div class="card-body text-center" style="width: 5 rem;">
-                        <img src="assets/images/accueil/GIMP_logo-100.png" class="card-img-top w-25" alt="Image de l'icone GIMP">
+                        <img src="public/assets/images/accueil/GIMP_logo-100.png" class="card-img-top w-25" alt="Image de l'icone GIMP">
                         <h5 class="card-title">GIMP</h5>
                         <p class="card-text"><p>GIMP es uu logiciel libre et gratuit. C'est un outil de manipulation et de retouche d'image </p>
                         <a href="https://www.gimp.org/" class="btn bouton-perso">En savoir +</a>
@@ -123,6 +123,6 @@
              <!-- bas de page-->
              <?php require_once('footer.php');?> 
             <!--fichier Boostrap JS"-->
-            <script src="assets/js/bootstrap.bundle.min.js"></script> 
+            <script src="public/assets/js/bootstrap.bundle.min.js"></script> 
     </body>
 </html>
